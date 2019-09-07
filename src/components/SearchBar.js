@@ -10,6 +10,7 @@ class SearchBar extends React.Component{
         this.setState({term:event.target.value});
     }
     render(){
+        console.log('SearchBar component renered...');
         return(
             <div className="ui segment">
             <form className="ui form" onSubmit={this.onFormSubmit}>
